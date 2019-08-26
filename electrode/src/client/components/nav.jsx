@@ -9,7 +9,13 @@ export class Nav extends Component {
   }
 
   render() {
-    const navs = [["Home", ""], ["Demo1", "demo1"], ["Demo2", "demo2"], ["Demo3", "demo3"]];
+    const navs = [
+      ["Home", ""],
+      ["Demo1", "demo1"],
+      ["Demo2", "demo2"],
+      ["Demo3", "demo3"],
+      ["Demo4", "demo4"]
+    ];
     const currentTab = this.props.location.pathname.replace("/", "");
     return (
       <ul styleName={"styles.bar"}>

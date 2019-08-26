@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav } from "./nav";
 import { connect } from "react-redux";
+import counter from "../reducers";
 import custom from "../styles/custom.css"; // eslint-disable-line no-unused-vars
 import demo3 from "../styles/demo3.css"; // eslint-disable-line no-unused-vars
 

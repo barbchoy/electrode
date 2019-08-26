@@ -4,6 +4,8 @@ import Home from "./components/home";
 import Demo1 from "./components/demo1";
 import Demo2 from "./components/demo2";
 import Demo3 from "./components/demo3";
+import Demo4 from "./components/demo4";
+
 import { withRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 
@@ -46,6 +48,11 @@ const routes = [
         path: "/demo3",
         exact: true,
         component: Demo3
+      },
+      {
+        path: "/demo4",
+        exact: true,
+        component: Demo4
       }
     ]
   }
