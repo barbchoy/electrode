@@ -58,9 +58,12 @@ class CounterParent extends React.Component {
 
   render() {
     return (
-      <div styleName={"demo3.background"}>
-        <Counter display={this.state.count} />
-        <PlusButton clickHandler={this.increase} />
+      <div styleName={"custom.container"}>
+        <h1>This is a pure React App</h1>
+        <div styleName={"demo3.background"}>
+          <Counter display={this.state.count} />
+          <PlusButton clickHandler={this.increase} />
+        </div>
       </div>
     );
   }
