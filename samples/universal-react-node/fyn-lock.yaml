@@ -5547,10 +5547,20 @@ electrode-csrf-jwt:
 electrode-hapi-compat:
  _latest: 1.2.0
  _:
+<<<<<<< HEAD
+=======
+  ^1.0.0: 1.0.0
+>>>>>>> e13269d90cb5ae2ac417718910ca7a54ee4fa1d5
   ^1.2.0: 1.2.0
  1.2.0:
   $: sha512-oalPOkP3+eLQGV/fQPKf3NRjIZkUXvjb6WflB6wRscCvy7G4JShs2I0fmYHWD/Bp/7ro+9qlno78K97HTDsteQ==
   _: 'https://registry.npmjs.org/electrode-hapi-compat/-/electrode-hapi-compat-1.2.0.tgz'
+<<<<<<< HEAD
+=======
+ 1.0.0:
+  $: sha512-Hiy5jKTVas8CHmX+M1Qh/bkUKuCBVFjDvrXE4ZKHa9lrsLdYc0oYqsTQ0BWYN3OZq8i7X1yXdqy+aPWEsgd0yA==
+  _: 'https://registry.npmjs.org/electrode-hapi-compat/-/electrode-hapi-compat-1.0.0.tgz'
+>>>>>>> e13269d90cb5ae2ac417718910ca7a54ee4fa1d5
 electrode-node-resolver:
  _latest: 2.0.0-fynlocal_h
  _:
@@ -7054,8 +7064,19 @@ fsevents:
  1.2.9:
   optFailed: 2
   hasI: 1
+<<<<<<< HEAD
   $: sha512-oeyj2H3EjjonWcFjD5NvZNE9Rqe4UW+nQBU2HNeKw0koVLEFIhtyETyAakeAM3de7Z/SW5kcA+fZUait9EApnw==
   _: 'https://registry.npmjs.org/fsevents/-/fsevents-1.2.9.tgz'
+=======
+  $: sha512-tPvHgPGB7m40CZ68xqFGkKuzN+RnpGmSV+hgeKxhRpbxdqKXUFJGC3yonBOLzQBcJyGpdZFDfCsdOC2KFsXzeA==
+  _: 'https://registry.npmjs.org/fsevents/-/fsevents-1.2.8.tgz'
+  dependencies:
+   nan: ^2.12.1
+   node-pre-gyp: ^0.12.0
+  bundleDependencies:
+   - node-pre-gyp
+  deprecated: 'Please update: there are crash fixes'
+>>>>>>> e13269d90cb5ae2ac417718910ca7a54ee4fa1d5
   os:
    - darwin
 fstream:
@@ -18026,6 +18047,27 @@ yargs:
    window-size: ^0.2.0
    y18n: ^3.2.1
    yargs-parser: ^3.2.0
+<<<<<<< HEAD
+=======
+ 4.8.1:
+  $: sha1-wMQpJMpKqmsObaFznfshZDn53cA=
+  _: 'https://registry.npmjs.org/yargs/-/yargs-4.8.1.tgz'
+  dependencies:
+   cliui: ^3.2.0
+   decamelize: ^1.1.1
+   get-caller-file: ^1.0.1
+   lodash.assign: ^4.0.3
+   os-locale: ^1.4.0
+   read-pkg-up: ^1.0.1
+   require-directory: ^2.1.1
+   require-main-filename: ^1.0.1
+   set-blocking: ^2.0.0
+   string-width: ^1.0.1
+   which-module: ^1.0.0
+   window-size: ^0.2.0
+   y18n: ^3.2.1
+   yargs-parser: ^2.4.1
+>>>>>>> e13269d90cb5ae2ac417718910ca7a54ee4fa1d5
  3.32.0:
   $: sha1-AwiOnr+edWtpdRYR0qXvWRSCyZU=
   _: 'https://registry.npmjs.org/yargs/-/yargs-3.32.0.tgz'
